@@ -3,7 +3,7 @@ import React from 'react';
 
 class Bomb extends React.Component {
     state = { count: 0 }
-    
+    interval = null
 
     componentDidMount() {
         this.interval = setInterval(() => {

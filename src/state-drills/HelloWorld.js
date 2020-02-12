@@ -11,11 +11,8 @@ state = {who: "world"}
                 <button onClick={() => this.setState({who: "friend"})}>Friend</button>
                 <button onClick={() => this.setState({who: "React"})}>React</button>
             </div>
-
         )
     }
-
-
 }
 
 export default HelloWorld;
